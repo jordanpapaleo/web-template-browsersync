@@ -1,0 +1,25 @@
+{
+  "extends": ["standard"],
+  "plugins": [],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "es6": true,
+    "classes": true
+  },
+  "globals": {},
+  "rules": {}
+}
