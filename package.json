@@ -1,18 +1,20 @@
 {
   "name": "web-template-bs",
-  "devDependencies": {
-    "browser-sync": "2.18.7",
-    "eslint": "3.12.0",
-    "eslint-config-standard": "6.0.0",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-standard": "2.1.1"
-  },
   "scripts": {
-    "start": "browser-sync start --server 'src' --files 'src' --port 4000 --no-ui --no-notify"
+    "start": "browser-sync start --server 'src' --files 'src' --port 4000 --no-ui --no-notify",
+    "test": "$(npm bin)/eslint 'src/**/*.js' --quiet"
   },
+  "license": "MIT",
   "dependencies": {
-    "babel-eslint": "7.0.0",
-    "babel-standalone": "6.23.1",
-    "lodash": "4.17.4"
+    "babel-eslint": "10.0.0",
+    "browser-sync": "2.26.10",
+    "eslint": "7.5.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "false2.22.0",
+    "eslint-plugin-node": "false11.1.0",
+    "eslint-plugin-prettier": "false3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "false4.0.1",
+    "prettier": "false2.0.5"
   }
 }
